@@ -8,6 +8,6 @@ Console.WriteLine("Modification2");
 Console.WriteLine("Modification3");
 
 int[] array = { 2, 4, 6, 8, 10 };
-double average = Task2.Average(array); 
-Console.WriteLine("The average is: " + average);
+Console.WriteLine("The average is: " + Task2.Average(array));
 
+Console.WriteLine("The maximal value is: " + Task3.Max(array));
