@@ -2,13 +2,13 @@
 
 public class Task2
 {
-    public static double Average(int[] numbers)
+    public static double Average(int[] array)
     {
         int sum = 0;
-        foreach (int num in numbers) {
+        foreach (int num in array) {
             sum += num;
         }
 
-        return (double)sum / numbers.Length;
+        return (double)sum / array.Length;
     }
 }
